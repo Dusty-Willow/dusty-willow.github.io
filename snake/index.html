@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="game.js" type="module"></script>
+</head>
+<body>
+    <div id="score-board">
+        Score: 0
+    </div>
+    <div id="high-scores">
+    </div>
+    <div id="discount-code">
+        Earn Points to Reveal Discount Code
+        <br>
+    </div>
+    <div id="discount-buttons">     
+    </div>
+    <div id="game-board">
+        <div class="center">
+            <div class="border">
+                Eat food to earn points.<br>
+                Earn points to unlock a discount code.<br>
+                Every three points will reveal a new character of the discount code.<br>
+                Earn ten points to unlock the complete discount code.<br>
+                Play again for a chance to earn different discounts!<br>
+                <button id="play-button" class="glow-on-hover" type="button">Play Snake</button>
+            </div>
+        </div>    
+    </div>
+    <div id="save-form" class="center">
+    </div>
+    <div id="controls">
+        <button id="turn-left" class="glow-on-hover">Turn Left</button>
+        <button id="turn-right" class="glow-on-hover">Turn Right</button>
+    </div>
+</body>
