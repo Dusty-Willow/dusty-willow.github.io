@@ -287,7 +287,7 @@ body {
     #rules {font-size: medium; width: 40vmin; height: 3%;}
     #score-board {top: 10%; left: 60%; width: 35%; height: 10%;}
     #high-scores {top: 22%; left: 60%; width: 35%; height: 32%;}
-    #discount-code {top: 10%; left: 1%; width: 55%; height: 14%;}
+    #discount-code {top: 10%; left: 1%; width: 55%; height: 15%;}
     .center {top: 50%; left: 28%;}
     #controls {margin-top: 3%; top: 52%; left: 70.5%; width: 1%;}
     #turn-left {margin-bottom: 50%;}
@@ -302,7 +302,7 @@ body {
 @media screen and (min-width: 1000px) {
     body {font-size: small;}
     #game-board {width: 110vmin; margin-top: 1%;}
-    #discount-code {left: 35%; min-width: 60vmin;}
+    #discount-code {left: 35%; min-width: 70vmin;}
     #score-board {left: 2%;}
     #high-scores {left: 2%; min-height: 30%;}
     .glow-on-hover {width: 20vmin; height: 8vmin;}
