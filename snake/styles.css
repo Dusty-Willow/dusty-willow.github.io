@@ -302,7 +302,7 @@ body {
 @media screen and (min-width: 1000px) {
     body {font-size: small;}
     #game-board {width: 110vmin; margin-top: 1%;}
-    #discount-code {left: 35%; min-width: 50%;}
+    #discount-code {left: 30.5%; min-width: 36%; height: 13%}
     #score-board {left: 2%;}
     #high-scores {left: 2%; min-height: 30%;}
     .glow-on-hover {width: 20vmin; height: 8vmin;}
